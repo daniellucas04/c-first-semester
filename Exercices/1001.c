@@ -4,10 +4,10 @@
 int main(void){
 	int a, b;
 	
-	scanf("%i", &a);
-	scanf("%i", &b);
+	scanf("%d", &a);
+	scanf("%d", &b);
 	
-	printf("X = %i", a+b);
+	printf("X = %d\n", a+b);
 	
 	return 0;
 }
