@@ -5,7 +5,7 @@ int main(void){
 	int x;
 	
 	printf("Digite um numero: ");
-	scanf("%i", &x);
+	scanf("%d", &x);
 	
 	printf("O numero e: %i", x);
 	
