@@ -17,7 +17,7 @@ int main(void){
 	int times = x*y;
 
 	//saida de dados
-	printf("%d, %d, %d", sum, minus, times);
+	printf("%d,%d,%d", sum, minus, times);
 
 	return 0;
 }
