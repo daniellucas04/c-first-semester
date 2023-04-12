@@ -5,16 +5,16 @@
 
 int main(void){
 	//declarar variaveis
-	int x, y, sum, times, minus;
+	int x, y;
 	
 	//recebe o valor de x
 	scanf("%d", &x);
 	//recebe o valor de y
 	scanf("%d", &y);
 	
-	sum = x+y;
-	minus = x-y;
-	times = x*y;
+	int sum = x+y;
+	int minus = x-y;
+	int times = x*y;
 
 	//saida de dados
 	printf("%d, %d, %d", sum, minus, times);
