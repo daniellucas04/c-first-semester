@@ -11,11 +11,13 @@ int main(void){
 	scanf("%d", &x);
 	//recebe o valor de y
 	scanf("%d", &y);
+	
+	sum = x+y;
+	minus = x-y;
+	times = x*y;
 
 	//saida de dados
-	printf("soma: %d\n", (x+y));
-	printf("subtracao: %d\n", (x-y));
-	printf("multiplicacao: %d\n", (x*y));
+	printf("%d, %d, %d", sum, minus, times);
 
 	return 0;
 }
