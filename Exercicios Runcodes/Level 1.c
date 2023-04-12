@@ -1,5 +1,5 @@
 #include<stdio.h>
-// Faça um algoritmo para ler um valor do usuário e imprimi-lo no vídeo
+
 int main(void){
 	// Declarar a variavel
 	int x;
