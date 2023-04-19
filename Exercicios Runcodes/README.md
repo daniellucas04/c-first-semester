@@ -49,7 +49,8 @@
 
 ## Level 9
 ```js
-// A importância de R$ 780.000,00 será dividida entre os três primeiros colocados de um concurso, em partes diretamente proporcional aos pontos conseguidos por eles (0 a 100 pontos disputados pelos 3).
+// A importância de R$ 780.000,00 será dividida entre os três primeiros colocados de um concurso,
+// em partes diretamente proporcional aos pontos conseguidos por eles (0 a 100 pontos disputados pelos 3).
 // Construa um programa que leia os números de pontos dos três primeiros colocados e imprima a importância que caberá a cada um deles.
 ```
 
