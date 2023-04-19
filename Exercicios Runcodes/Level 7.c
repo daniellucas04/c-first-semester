@@ -1,5 +1,4 @@
 #include<stdio.h>
-#include<math.h>
 
 // Escreva um algoritmo que solicite ao usuário o raio e a altura de um cilindro circular, e imprima o volume do cilindro.
 // O volume de um cilindro circular é calculado pela seguinte formula: volume = 3.14 * raio * raio * altura.
