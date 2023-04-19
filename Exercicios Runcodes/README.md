@@ -31,3 +31,23 @@
 ```js
 // Faça um programa para calcular o cubo de um número informado pelo usuário e imprima na tela o cubo.
 ```
+
+## Level 7
+```js
+// Escreva um algoritmo que solicite ao usuário o raio e a altura de um cilindro circular, e imprima o volume do cilindro. O volume de um cilindro circular é calculado pela seguinte formula: volume = 3.14 * raio * raio * altura. Utilizar uma casa decimal como arredondamento. Ex: print(round(volume,1))
+```
+
+## Level 8
+```js
+// Faça o cálculo da área de um retângulo. (rt=largura * comprimento)
+```
+
+## Level 9
+```js
+// A importância de R$ 780.000,00 será dividida entre os três primeiros colocados de um concurso, em partes diretamente proporcional aos pontos conseguidos por eles (0 a 100 pontos disputados pelos 3). Construa um programa que leia os números de pontos dos três primeiros colocados e imprima a importância que caberá a cada um deles.
+```
+
+## Level 10
+```js
+// Você foi contratado por uma empresa de construção para fazer um programa que calcule o salário liquido dos operários no fim de cada mês, sabe-se que cada operário recebe R$ 3,00 por cada hora trabalhada, e que se desconta 8% do salário bruto para INSS. (salariobruto = nhs * 3) (desconto = (salariobruto * 8)/100) (salarioliquido = salariobruto - desconto)
+```
