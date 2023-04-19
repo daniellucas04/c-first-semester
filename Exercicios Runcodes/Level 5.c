@@ -4,14 +4,16 @@
 
 int main(void){
 	// declarar variavel
-	int number;
+	int number, dobro, metade;
 	
 	// recebe valor
 	scanf("%d", &number);
 	
+	dobro = number*2;
+	metade = number/2;
+	
 	// mostra resultado
-	printf("dobro: %d\n", (number*2));
-	printf("metade: %d\n", (number/2));
+	printf("%d,%d", dobro, metade);
 	
 	return 0;
 }

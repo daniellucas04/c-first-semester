@@ -2,13 +2,11 @@
 #include<math.h>
 
 int main(void){
-	float number, aux;
+	double number;
 	
-	scanf("%f", &number);
+	scanf("%lf", &number);
+
+	double pow = number*number*number;
 	
-	aux = pow(number, 3);
-	
-	printf("%.1f", aux);
-	
-	return 0;
+	printf("%.0lf", pow);	
 }

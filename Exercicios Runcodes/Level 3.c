@@ -2,7 +2,7 @@
 
 // Faça um algoritmo para ler quatro notas e imprimir a média ponderada dessas notas. 
 // Considere que os pesos das são: 1, 2, 3 e 4, respectivamente. 
-// Ex do processamento: mp=(n11+n22+n33+n44)/(1+2+3+4)
+// Ex do processamento: mp=(n1*1+n2*2+n3*3+n4*4)/(1+2+3+4)
 
 int main(void){
 	// declarar variaveis
