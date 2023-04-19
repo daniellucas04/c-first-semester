@@ -13,7 +13,7 @@ int main(void){
 	scanf("%f", &radius);
 	scanf("%f", &height);
 
-	// processamento de dados
+	// calcula volume
 	float volume = 3.14 * radius * radius * height;
 	
 	// saida de dados
