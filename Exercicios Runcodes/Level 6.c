@@ -12,4 +12,6 @@ int main(void){
 	
 	// mostra resultado
 	printf("%.0lf", pow);	
+	
+	return 0;
 }

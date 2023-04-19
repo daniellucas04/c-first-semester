@@ -15,5 +15,7 @@ int main(){
 	
 	// mostra area
 	printf("%d", rt);
+	
+	return 0;
 }
 
