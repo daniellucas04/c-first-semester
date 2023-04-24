@@ -62,3 +62,9 @@
 // (desconto = (salariobruto * 8)/100)
 // (salarioliquido = salariobruto - desconto)
 ```
+
+## Level 11
+```js
+// Faça um algoritmo que leia os valores A, B, C e imprima "maior" se a soma de A + B é maior que C
+// ou imprima "menor" caso contrário ( A+B menor ou igual que C).
+```
