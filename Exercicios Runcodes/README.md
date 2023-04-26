@@ -99,3 +99,21 @@ Leia um número para verificar se ele é maior do que 20. Caso afirmativo imprim
 Faça um algoritmo para calcular a conta de energia elétrica de uma casa. O valor de cada KWH é 1.5.
 Quando a casa é de uma aposentada, a conta tem um desconto de 15%. (Entradas: numero de khw e aposentado s ou n.)
 ```
+
+## Level 18
+```md
+Leia um número e imprimir se ele é "positivo", "negativo" ou "nulo". (Imprimir somente o que está entre aspas " ".)
+```
+
+## Level 19
+```md
+Faça um algoritmo para verificar se o ano é bissexto. Se o ano for bissexto imprimir "ano bissexto" e "nao bissexto" caso contrário.
+```
+
+## Level 20
+```md
+Faça um algoritmo para ler as 3 notas obtidas por um aluno nas 3. 
+Calcular a média aritmética simples (ms=(n1+n2+n3)/3) de aproveitamento,
+imprima o conceito do aluno de acordo sendo:
+ms >= 9.0, imprimir "A"; se ms<9 e ms>=7.5, imprimir "B"; se ms<7.5 e ms>6, imprimir "C" e se ms<6, imprimir "D".
+``` 
