@@ -93,3 +93,9 @@ Leia um número e imprima se ele é "par" ou "impar".
 ```md
 Leia um número para verificar se ele é maior do que 20. Caso afirmativo imprima a metade desse número. Caso contrário imprima o seu quadrado.
 ```
+
+## Level 17
+```md
+Faça um algoritmo para calcular a conta de energia elétrica de uma casa. O valor de cada KWH é 1.5.
+Quando a casa é de uma aposentada, a conta tem um desconto de 15%. (Entradas: numero de khw e aposentado s ou n.)
+```
