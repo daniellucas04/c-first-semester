@@ -118,6 +118,40 @@ imprima o conceito do aluno de acordo sendo:
 ms >= 9.0, imprimir "A"; se ms<9 e ms>=7.5, imprimir "B"; se ms<7.5 e ms>6, imprimir "C" e se ms<6, imprimir "D".
 ``` 
 
+## Level 20.2
+```md
+Faça um algoritmo que entre com três notas e imprima.
+Cada nota é independente e tem um conceito de corte diferente.
+Para nota1 o conceito é >=70; para a nota2 o conceito é >=75 e para nota3 o conceito é >=80.
+Imprima "aprovado", caso ao menos uma dessas condições forem satisfeitas ou "reprovado", caso contrário.
+```
+
+## Level 20.3
+```md
+Uma empresa quer verificar se um empregado está qualificado para a aposentadoria ou não.
+As informações necessários são: idade e anos trabalhados. 
+As condições para ser qualificado a aposentadoria são:
+Ter no mínimo 65 anos de idade ou; Ter trabalhado no mínimo 30 anos ou; Ter no mínimo 60 anos e ter trabalhado no mínimo 25 anos.
+Imprima "qualificado" caso ao menos uma das três condições sejam satisfeitas ou "desqualificado" caso contrario.
+```
+
+## Level 20.4
+```md
+Para um processo seletivo é necessário que o candidato faça 75 pontos para ser aprovado ou 60 pontos caso o candidato seja afiliado.
+Faça um algoritmo que receba a nota e afiliado (s,n).
+Caso o candidata satisfaça ao menos uma condição imprima "aprovado", ou "reprovado" caso contrário.
+```
+
+## Level 20.5
+```md
+Um posto mágico está vendendo combustíveis com uma porcentagem de descontos:
+se o c abastecimento for com Etanol e até 20 litros, o desconto será de 3%, caso seja acima de 20 litros, desconto de 5%.
+Se o abastecimento for com Gasolina e até 20 litros, desconto de 4%, caso seja acima de 20 litros, desconto de 6%.
+Escreva um algoritmo que leia o número de litros vendidos e o tipo de combustível ( e (Etanol) ou g (Gasolina)),
+calcule e imprima o valor a ser pago pelo cliente sabendo-se que o preço do litro da gasolina é 5.00 e o preço do litro do álcool é 3.90.
+Utilizar a função de arredondamento com duas casas decimais (round(valorfinal,2)).
+```
+
 ## Level 21
 ```md
 Faça um algoritmo que entre com um nome e imprima 10 vezes o nome dado.
@@ -185,4 +219,4 @@ Utilizar a função de arredondamento com uma casa decimal. Ex: round(media,1)
 ## Level 34
 ```md
 Faça um Programa que leia uma lista de 10 caracteres, e diga quantas consoantes foram lidas. Imprima as consoantes.
-```
+
