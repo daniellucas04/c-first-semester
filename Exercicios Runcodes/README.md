@@ -117,3 +117,72 @@ Calcular a média aritmética simples (ms=(n1+n2+n3)/3) de aproveitamento,
 imprima o conceito do aluno de acordo sendo:
 ms >= 9.0, imprimir "A"; se ms<9 e ms>=7.5, imprimir "B"; se ms<7.5 e ms>6, imprimir "C" e se ms<6, imprimir "D".
 ``` 
+
+## Level 21
+```md
+Faça um algoritmo que entre com um nome e imprima 10 vezes o nome dado.
+```
+
+## Level 22
+```md
+Faça um algoritmo que receba o nome e um numero (nx).
+E imprima o nome dado um número de vezes determinado pelo usuário (nx vezes).
+```
+
+## Level 23
+```md
+Faça um algoritmo para imprimir a soma dos números entre um intervalo determinado pelo usuário, incluindo os limites inferiores e superiores. Ex: Entrada 2 e 5. processamento: 2+3+4+5 saída: 14
+```
+
+## Level 24
+```md
+Faça um algoritmo para imprimir os múltiplos de 5 em um intervalo informado pelo usuário.
+Ex: Entrada: 1 30 saída: 5 10 15 20 25 30
+```
+
+## Level 25
+```md
+Faça um algoritmo que imprima todos os números de 1 até um número especificado pelo usuário e ao final também imprima a soma deles.
+```
+
+## Level 26
+```md
+Elabore um algoritmo para calcular a soma dos números impares de 0 a 100
+```
+
+## Level 28
+```md
+Elabore um algoritmo para ler os números n e p, e calcule a exponenciação de n^p utilizando o repetidor for
+```
+
+## Level 29
+```md
+Faça um algoritmo que crie uma calculadora com as quatro operações básicas (adição, subtração, multiplicação e divisão) para dois números, em que cada operação deve ser realizada por uma função. 
+Entradas em ordem: n1, n2, operador. Saída tipo Float. O operador pode ser(+,-,*,/).
+```
+
+## Level 30
+```m
+Faça um exercício que receba um número e use um método para fazer o fatorial de número. Ex: 6! = 6 * 5 * 4 * 3 * 2 * 1 = 720 saída resultado.
+```
+
+## Level 31
+```md
+Faça um Programa que leia uma lista de 5 números inteiros e mostre-os.
+```
+
+## Level 32
+```md
+Faça um Programa que leia uma lista de 10 números reais(float) e mostre-os na ordem inversa.
+```
+
+## Level 33
+```md
+Faça um Programa que leia 4 notas, mostre as notas e a média na tela.
+Utilizar a função de arredondamento com uma casa decimal. Ex: round(media,1)
+```
+
+## Level 34
+```md
+Faça um Programa que leia uma lista de 10 caracteres, e diga quantas consoantes foram lidas. Imprima as consoantes.
+```
