@@ -219,4 +219,21 @@ Utilizar a função de arredondamento com uma casa decimal. Ex: round(media,1)
 ## Level 34
 ```md
 Faça um Programa que leia uma lista de 10 caracteres, e diga quantas consoantes foram lidas. Imprima as consoantes.
+```
 
+## Level 35
+```md
+faça um algoritmo que leia um texto e imprima "palindromo", caso o texto seja palindromo ou "nao palindromo", caso contrário.
+```
+
+## Level 36
+```md
+Faça um Programa que leia 5 números inteiros e armazene-os numa lista. 
+Armazene os números PARES em outra lista e os números IMPARES em uma terceira lista. 
+Imprima a lista com os números PARES e a lista com os números IMPARES.
+```
+
+## Level 37
+```md
+Faça um Programa que leia uma lista de 5 números inteiros, imprima os números e a soma desses números.
+```
