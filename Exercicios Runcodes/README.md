@@ -237,3 +237,18 @@ Imprima a lista com os números PARES e a lista com os números IMPARES.
 ```md
 Faça um Programa que leia uma lista de 5 números inteiros, imprima os números e a soma desses números.
 ```
+
+## Level 38
+```md
+Faça um Programa que leia uma lista de 5 números inteiros, imprima os números e a multiplicação desses números.
+```
+
+## Level 39
+```md
+Faça um Programa que leia 10 números inteiros e armazene-os numa lista. Armazene os números pares em outra lista e imprima os números pares e a soma dessa lista.
+```
+
+## Level 40
+```md
+Faça um Programa que leia 10 números inteiros e armazene-os numa lista. Armazene os números impares em outra lista e imprima os números impares e multiplicação dessa lista.
+```
