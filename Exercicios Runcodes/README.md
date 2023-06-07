@@ -252,3 +252,17 @@ Faça um Programa que leia 10 números inteiros e armazene-os numa lista. Armaze
 ```md
 Faça um Programa que leia 10 números inteiros e armazene-os numa lista. Armazene os números impares em outra lista e imprima os números impares e multiplicação dessa lista.
 ```
+
+## Level 41
+```md
+Faça uma função que recebe uma matriz A[3,3] de valores inteiros e imprima a soma dos seus elementos.
+```
+## Level 42
+```md
+Faça uma função que recebe uma matriz A[3,3] e retorna a soma dos elementos da sua diagonal principal.
+```
+
+## Level 43
+```md
+Faça um algoritmo que receba em uma matriz 2 notas de 4 alunos e calcule e imprima a média dos 4 alunos (utilizar a função round() com 1 casa decimal). Para isso crie uma matriz A[4,2] em que cada linha represente um aluno e cada coluna uma nota.
+```
