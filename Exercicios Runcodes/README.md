@@ -264,10 +264,35 @@ Faça uma função que recebe uma matriz A[3,3] e retorna a soma dos elementos d
 
 ## Level 43
 ```md
-Faça um algoritmo que receba em uma matriz 2 notas de 4 alunos e calcule e imprima a média dos 4 alunos (utilizar a função round() com 1 casa decimal). Para isso crie uma matriz A[4,2] em que cada linha represente um aluno e cada coluna uma nota.
+Faça um algoritmo que receba em uma matriz 2 notas de 4 alunos e calcule e imprima a média dos 4 alunos (utilizar a função round() com 1 casa decimal).
+Para isso crie uma matriz A[4,2] em que cada linha represente um aluno e cada coluna uma nota.
 ```
 
-## Level 44
+## Level 46
 ```md
-Faça um algoritmo que receba em uma matriz 2 notas de 4 alunos e calcule e imprima a média dos 4 alunos (utilizar a função round() com 1 casa decimal). Para isso crie uma matriz A[4,2] em que cada linha represente um aluno e cada coluna uma nota.
+Faça um algoritmo que carregue uma função que recebe três parâmetros inteiros e retorne a média aritmética.
+Utilize a função round com uma casa decimal para o retorno (round(média,1))
+```
+
+## Level 47
+```md
+Faça um algoritmo que carregue uma função que recebe dois números inteiros e retorne a soma desses dois elementos.
+```
+
+## Level 48
+```md
+Faça um algoritmo que carregue uma função que receba o salario bruto e retorne o salario liquido sabendo que o desconto no salario bruto é de 7%.
+Utilize a função round(salarioliquido,1)) para o retorno.
+```
+
+## Level 49
+```md
+Faça um algoritmo que carregue uma função que recebe como parâmetro duas notas e dois pesos, e retorne a média ponderada.
+Utilize a função round(mp,1) com uma casa decimal para o retorno.
+```
+
+## Level 54
+```md
+Faça um exercício que receba um número e use uma função para fazer o fatorial de um número sem a utilização de estruturas de repetição(for e while por exemplo).
+Ex: 6! = 6 * 5 * 4 * 3 * 2 * 1 = 720 saída resultado.
 ```
