@@ -7,39 +7,55 @@ typedef struct Register{
     char ba[9];
 } Register;
 
+void verificaArquivo(FILE *ptr){
+    if(ptr==NULL) printf("Erro na abertura do arquivo!");
+}
+
 void gravarRegistro(){
     FILE *ptr; // cria variavel ponteiro para o arquivo
     Register reg;
     //abrindo o arquivo
     ptr = fopen("registers.txt", "w");
     
-    if(ptr==NULL)
-	{
-		printf("Erro na abertura do arquivo!");
-		return 1;
-	}
+    //verifica se o arquivo existe
+    verificaArquivo(ptr);
 
     //recebe o nome do aluno
     printf("Digite o nome do aluno: ");
-    scanf("%s", &reg.nome);
-    fprintf(ptr, "nome: %s", reg.nome);
+    scanf("%s", &*reg.nome);
+    fprintf(ptr, "Nome: %s", reg.nome);
     
     //recebe a idade do aluno
     printf("Digite a idade do aluno: ");
     scanf("%i", &reg.idade);
-    fprintf(ptr, "\nidade: %i", reg.idade);
+    fprintf(ptr, "\nIdade: %i", reg.idade);
 
     //recebe a matricula do aluno
     printf("Digite a matricula do aluno: ");
-    scanf("%s", &reg.ba);
-    fprintf(ptr, "\nBA: %s", reg.ba);
+    scanf("%s", &*reg.ba);
+    fprintf(ptr, "\nBA (Matrícula): %s", reg.ba);
 
     fclose(ptr); //file close
-    printf("Dados gravados com sucesso!");
+    printf("\n\nDados gravados com sucesso!\n\n");
 }
 
 void lerRegistro(){
+    FILE *ptr;
+
+    //abrir arquivo
+    ptr=fopen("registers.txt", "r");
+
+    //verifica se o arquivo existe
+    verificaArquivo(ptr);
+
+    char content[100];
+    printf("\n-------------Conteudo do arquivo-------------\n\n");
+    while(fgets(content, 100, ptr)!=NULL) {
+        printf("%s", content);
+    }
+    printf("\n\n---------------------------------------------\n");
     
+    fclose(ptr);
 }
 
 void escolha(int op){
@@ -64,7 +80,7 @@ int main(){
         printf("2 - Ler registro de aluno\n");
         printf("3 - Sair\n");
         printf("Digite uma opcao: ");
-        scanf("%i", op);
+        scanf("%d", &op);
 
         escolha(op);
     } while(op!=3);
