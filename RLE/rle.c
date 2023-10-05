@@ -3,7 +3,7 @@
 #include<string.h>
 
 int main(){
-	int count=0, i=0, sum=0, j, aux = 0;
+	int i=0, j, l, aux = 0, count=0, sum=0;
 	char letters[99], lettersJoin[99];
 
 	while(scanf("%s", letters) != EOF) {
@@ -29,13 +29,22 @@ int main(){
 				sum+=letters[i]-'0';
 			}
 			for(j=0; j<sum; j++){
-				if(!(letters[k] < 'a' || letters[k] > 'z')){
-					printf("%c", letters[k]);
+				for(l=0; l<sum; l++){
+					if(!(letters[k] < 'a' || letters[k] > 'z')){
+						if(count==0){
+							printf("%c", letters[k]);
+						}else{
+							printf(" %c", letters[k]);
+						}
+						count++;
+					}
 				}
 				k++;
 			}
-			sum=0;
+			sum=0; 
 		}
+		count=0;
+		printf("\n");
 	}
 
 	return 0;
